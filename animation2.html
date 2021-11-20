@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		body{
+			background-color:#123456;
+		}
+		.container{
+			width: 400px;
+			height: 400px;
+			margin: auto;
+			position:absolute;
+			top: 20%;
+			left: 30%;
+			animation-name: box1;
+			animation-duration: 2s;
+			animation-iteration-count:infinite;
+			border: 15px solid #ccc;
+			border-radius: 50%;
+			border-top-color:black;
+			border-bottom-color:#009688;
+			border-left-color:brown;
+			border-right-color:pink;
+			animation-direction:alternate-reverse;
+		}
+		.radius{
+			width: 100px;
+			height: 100px;
+			margin: auto;
+			position: absolute;
+			top: 20%;
+			left: 30%;
+			border: 15px solid #ccc;
+			border-radius: 50%;
+			border-top-color: darkblue;
+			border-bottom-color: blue;
+			border-left-color: yellow;
+			border-right-color: red;
+			animation-name: box1;
+			animation-duration: 2s;
+			animation-iteration-count: infinite;
+			
+		}
+		@keyframes box1 {
+			from{
+			    width: 30px;
+			    background-color: red;
+			}
+			to{
+				width: 90px;
+				background-color: yellow;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="radius">
+			
+		</div>
+		
+	</div>
+
+</body>
+</html>
